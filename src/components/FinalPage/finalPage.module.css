@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.text {
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #1C1C21;
+    margin-bottom: 64px;
+    word-break: break-word;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 80px;
+    margin: 0;
+}
+
+.textTotal {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1C1C21;
+    opacity: 50%;
+    margin-bottom: 8px;
+}
+
+.img img {
+    max-width: 600px;
+}
+
+@media screen and (max-width: 500px){
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .img img {
+        padding-top: 80px;
+        margin-bottom: 32px;
+        width: 288px;
+    }
+
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        color: #1C1C21;
+        margin-bottom: 100px;
+        word-break: break-word;
+        text-align: center;
+    }
+
+    .textTotal {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #1C1C21;
+        opacity: 50%;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .App {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .img img {
+        padding-top: 50px;
+        margin-bottom: 24px;
+        width: 225px;
+    }
+
+    .text {
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #1C1C21;
+        margin-bottom: 50px;
+        word-break: break-word;
+        text-align: center;
+        width: 225px;
+    }
+
+    .textTotal {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #1C1C21;
+        opacity: 50%;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        width: 225px;
+    }
+}

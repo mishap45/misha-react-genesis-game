@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.testBlock {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-left: 80px;
+}
+
+.moneyBlock {
+    display: flex;
+    align-items: center;
+    padding-right: 69px;
+    padding-left: 69px;
+}
+
+.question {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    word-break: break-word;
+    margin-top: 5%;
+    width: 65vw;
+}
+
+.answer {
+    background: #fff;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 382px;
+    height: 71px;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C21;
+
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.answerWrap {
+    background: #D0D0D8;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 385px;
+    height: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-right: 34px;
+}
+
+.answerWrap:hover {
+    background: #FF8B37;
+}
+
+.answerCorrect {
+    background: #E6FAEA;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 382px;
+    height: 71px;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C21;
+
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.answerWrapCorrect {
+    background: #47D867;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 385px;
+    height: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-right: 34px;
+}
+
+.answerUnCorrect {
+    background: #FDEEED;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 382px;
+    height: 71px;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C21;
+
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.answerWrapUnCorrect {
+    background: #EC6259;
+    --notchSize: 36px;
+    clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+    calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+    calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+    var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+    width: 385px;
+    height: 74px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-right: 34px;
+}
+
+.answerBlock {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 35%;
+}
+
+@media screen and (max-width: 500px){
+    .testBlock {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .question {
+        font-size: 18px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        word-break: break-word;
+        margin-top: 130px;
+        text-align: center;
+        width: 91vw;
+    }
+
+    .answerBlock {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        align-self: center;
+        min-width: 350px;
+    }
+
+    .auto {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .answer {
+        background: #fff;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 288px;
+        height: 56px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrap {
+        background: #D0D0D8;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 290px;
+        height: 58px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .answerWrap:hover {
+        background: #FF8B37;
+    }
+
+    .answerCorrect {
+        background: #E6FAEA;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 288px;
+        height: 56px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrapCorrect {
+        background: #47D867;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 290px;
+        height: 58px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .answerUnCorrect {
+        background: #FDEEED;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 288px;
+        height: 56px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrapUnCorrect {
+        background: #EC6259;
+        --notchSize: 28px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 290px;
+        height: 58px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .menu {
+        position: absolute;
+        cursor: pointer;
+        top: 16px;
+        right: 16px;
+    }
+
+    .none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .testBlock {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .question {
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        word-break: break-word;
+        margin-top: 100px;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .answerBlock {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        align-self: center;
+        min-width: 150px;
+    }
+
+    .auto {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .answer {
+        background: #fff;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 225px;
+        height: 45px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrap {
+        background: #D0D0D8;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 227px;
+        height: 47px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .answerWrap:hover {
+        background: #FF8B37;
+    }
+
+    .answerCorrect {
+        background: #E6FAEA;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 225px;
+        height: 45px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrapCorrect {
+        background: #47D867;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 227px;
+        height: 47px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .answerUnCorrect {
+        background: #FDEEED;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 225px;
+        height: 45px;
+        font-family: 'Inter', sans-serif;
+        color: #1C1C21;
+
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .answerWrapUnCorrect {
+        background: #EC6259;
+        --notchSize: 23px;
+        clip-path: polygon(0% var(--notchSize), var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%, 100% var(--notchSize), 100%
+        calc(100% - var(--notchSize)), calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%, 0% calc(100% - var(--notchSize)));
+
+        width: 227px;
+        height: 47px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .menu {
+        position: absolute;
+        cursor: pointer;
+        top: 16px;
+        right: 14%;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .moneyBlock {
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "question": "In which modern-day country was the physicist and chemist Marie Curie born?",
+      "answers": [
+        { "answer": "Poland", "letter": "A" },
+        { "answer": "Spain", "letter": "B" },
+        { "answer": "Ukraine", "letter": "C" },
+        { "answer": "USA", "letter": "D" }
+      ],
+      "correctAnswer": "Poland"
+    },
+
+    {
+      "id": 1,
+      "question": "How many wings does a mosquito have?",
+      "answers": [
+        { "answer": "One", "letter": "A" },
+        { "answer": "Four", "letter": "B" },
+        { "answer": "Two", "letter": "C" },
+        { "answer": "Six", "letter": "D" }
+      ],
+      "correctAnswer": "Two"
+    },
+
+    {
+      "id": 2,
+      "question": "Which is the largest internal organ in the human body?",
+      "answers": [
+        { "answer": "Finger", "letter": "A" },
+        { "answer": "Head", "letter": "B" },
+        { "answer": "Lung", "letter": "C" },
+        { "answer": "Liver", "letter": "D" }
+      ],
+      "correctAnswer": "Liver"
+    },
+
+    {
+      "id": 3,
+      "question": "Arachnophobia is the fear of what?",
+      "answers": [
+        { "answer": "Dolphins", "letter": "A" },
+        { "answer": "Cats", "letter": "B" },
+        { "answer": "Spiders", "letter": "C" },
+        { "answer": "Bees", "letter": "D" }
+      ],
+      "correctAnswer": "Spiders"
+    },
+
+    {
+      "id": 4,
+      "question": "What is the collective name for a group of crows?",
+      "answers": [
+        { "answer": "A murder", "letter": "A" },
+        { "answer": "A crows", "letter": "B" },
+        { "answer": "A birds", "letter": "C" },
+        { "answer": "A sparrows", "letter": "D" }
+      ],
+      "correctAnswer": "A murder"
+    },
+
+    {
+      "id": 5,
+      "question": "What part of a human body is the Mandible?",
+      "answers": [
+        { "answer": "Bigger jawbone", "letter": "A" },
+        { "answer": "Lower jawbone", "letter": "B" },
+        { "answer": "Small jawbone", "letter": "C" },
+        { "answer": "Big jawbone", "letter": "D" }
+      ],
+      "correctAnswer": "Lower jawbone"
+    },
+
+    {
+      "id": 6,
+      "question": "The rate at which the body produces energy from nutrients is controlled by which gland in the neck?",
+      "answers": [
+        { "answer": "Carotid", "letter": "A" },
+        { "answer": "Neck gland", "letter": "B" },
+        { "answer": "Eyes", "letter": "C" },
+        { "answer": "Thyroid gland", "letter": "D" }
+      ],
+      "correctAnswer": "Thyroid gland"
+    },
+
+    {
+      "id": 7,
+      "question": "At what speed does light travel?",
+      "answers": [
+        { "answer": "185,000 miles per second", "letter": "A" },
+        { "answer": "204,000 miles per second", "letter": "B" },
+        { "answer": "160,000 miles per second", "letter": "C" },
+        { "answer": "186,000 miles per second", "letter": "D" }
+      ],
+      "correctAnswer": "186,000 miles per second"
+    },
+
+    {
+      "id": 8,
+      "question": "What is the largest moon of Saturn called?",
+      "answers": [
+        { "answer": "Titan", "letter": "A" },
+        { "answer": "Ganymede", "letter": "B" },
+        { "answer": "Rhea", "letter": "C" },
+        { "answer": "Enceladus", "letter": "D" }
+      ],
+      "correctAnswer": "Titan"
+    },
+
+    {
+      "id": 9,
+      "question": "Percy Spencer invented which time saving kitchen appliance?",
+      "answers": [
+        { "answer": "The kitchen knife", "letter": "A" },
+        { "answer": "The Microwave cooker", "letter": "B" },
+        { "answer": "The cookstove", "letter": "C" },
+        { "answer": "He did not invent anything like that", "letter": "D" }
+      ],
+      "correctAnswer": "The Microwave cooker"
+    },
+
+    {
+      "id": 10,
+      "question": "Ascorbic acid is a form of which vitamin?",
+      "answers": [
+        { "answer": "D3", "letter": "A" },
+        { "answer": "B12", "letter": "B" },
+        { "answer": "C", "letter": "C" },
+        { "answer": "A", "letter": "D" }
+      ],
+      "correctAnswer": "C"
+    },
+
+    {
+      "id": 11,
+      "question": "How many hearts do octopuses have?",
+      "answers": [
+        { "answer": "Ten", "letter": "A" },
+        { "answer": "Three", "letter": "B" },
+        { "answer": "One", "letter": "C" },
+        { "answer": "Five", "letter": "D" }
+      ],
+      "correctAnswer": "Three"
+    }
+
+
+  ]
+}
