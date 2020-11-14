@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { StepContext, StepContextSet, CashContext, CashContextSet } from './context/context'
 import App from './App'
-import { BrowserRouter } from 'react-router-dom'
+import {BrowserRouter, HashRouter } from 'react-router-dom'
 
 const App_Container = () => {
 
@@ -13,9 +13,9 @@ const App_Container = () => {
             <StepContextSet.Provider value={setStep}>
                 <CashContext.Provider value={cash}>
                     <CashContextSet.Provider value={cashStep}>
-                        <BrowserRouter>
+                        <HashRouter basename={process.env.PUBLIC_URL} >
                             <App />
-                        </BrowserRouter>
+                        </HashRouter>
                     </CashContextSet.Provider>
                 </CashContext.Provider>
             </StepContextSet.Provider>
