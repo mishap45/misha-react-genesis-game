@@ -1,4 +1,4 @@
-##Who want to be a millionaire
+## Who want to be a millionaire
 This project is simple game.
 
 ## Technologies
@@ -24,5 +24,5 @@ $  npm install
 $  npm start
 ```
 
-##Url on demo
+## Url on demo
 http://mishap45.github.io/misha-react-genesis-game/
