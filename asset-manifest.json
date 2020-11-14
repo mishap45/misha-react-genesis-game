@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/misha-react-genesis-game/static/css/main.d0ea26cf.chunk.css",
-    "main.js": "/misha-react-genesis-game/static/js/main.6e012f9d.chunk.js",
-    "main.js.map": "/misha-react-genesis-game/static/js/main.6e012f9d.chunk.js.map",
+    "main.css": "/misha-react-genesis-game/static/css/main.11dcc4df.chunk.css",
+    "main.js": "/misha-react-genesis-game/static/js/main.b0ee249a.chunk.js",
+    "main.js.map": "/misha-react-genesis-game/static/js/main.b0ee249a.chunk.js.map",
     "runtime-main.js": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js",
     "runtime-main.js.map": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js.map",
-    "static/js/2.8cc5b79d.chunk.js": "/misha-react-genesis-game/static/js/2.8cc5b79d.chunk.js",
-    "static/js/2.8cc5b79d.chunk.js.map": "/misha-react-genesis-game/static/js/2.8cc5b79d.chunk.js.map",
+    "static/js/2.5ed9e27d.chunk.js": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js",
+    "static/js/2.5ed9e27d.chunk.js.map": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js.map",
     "static/js/3.ceaf514d.chunk.js": "/misha-react-genesis-game/static/js/3.ceaf514d.chunk.js",
     "static/js/3.ceaf514d.chunk.js.map": "/misha-react-genesis-game/static/js/3.ceaf514d.chunk.js.map",
     "index.html": "/misha-react-genesis-game/index.html",
-    "static/css/main.d0ea26cf.chunk.css.map": "/misha-react-genesis-game/static/css/main.d0ea26cf.chunk.css.map",
-    "static/js/2.8cc5b79d.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.8cc5b79d.chunk.js.LICENSE.txt",
+    "static/css/main.11dcc4df.chunk.css.map": "/misha-react-genesis-game/static/css/main.11dcc4df.chunk.css.map",
+    "static/js/2.5ed9e27d.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js.LICENSE.txt",
     "static/media/Close.67d0a39e.svg": "/misha-react-genesis-game/static/media/Close.67d0a39e.svg",
     "static/media/Menu.2e4db3a9.svg": "/misha-react-genesis-game/static/media/Menu.2e4db3a9.svg",
     "static/media/hand.dbb74bc4.svg": "/misha-react-genesis-game/static/media/hand.dbb74bc4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f9eb28a7.js",
-    "static/js/2.8cc5b79d.chunk.js",
-    "static/css/main.d0ea26cf.chunk.css",
-    "static/js/main.6e012f9d.chunk.js"
+    "static/js/2.5ed9e27d.chunk.js",
+    "static/css/main.11dcc4df.chunk.css",
+    "static/js/main.b0ee249a.chunk.js"
   ]
 }
