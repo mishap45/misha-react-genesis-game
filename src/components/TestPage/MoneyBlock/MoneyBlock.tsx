@@ -1,5 +1,5 @@
-import React from 'react'
-import style from './moneyBlock.module.css'
+import React from "react";
+import style from "./moneyBlock.module.css";
 
 type MoneyBlockTypes = {
     id: number
@@ -7,7 +7,7 @@ type MoneyBlockTypes = {
     currentStep: number
 }
 
-const MoneyBlock:React.FC<MoneyBlockTypes> = ({ currentStep, id, cash }) => {
+const MoneyBlock:React.FC<MoneyBlockTypes> = ({ currentStep, id, cash }: MoneyBlockTypes) => {
     return (
         <div className={
             currentStep === id
@@ -24,7 +24,7 @@ const MoneyBlock:React.FC<MoneyBlockTypes> = ({ currentStep, id, cash }) => {
                 {cash}
             </div>
         </div>
-    )
+    );
 };
 
-export default MoneyBlock
+export default MoneyBlock;

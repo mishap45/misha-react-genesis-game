@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
-import { StepContext, StepContextSet, CashContext, CashContextSet } from './context/context'
-import App from './App'
-import {BrowserRouter, HashRouter } from 'react-router-dom'
+import React, { useState } from "react";
+import { StepContext, StepContextSet, CashContext, CashContextSet } from "./context/context";
+import App from "./App";
+import { HashRouter } from "react-router-dom";
 
 const App_Container = () => {
 
@@ -20,7 +20,7 @@ const App_Container = () => {
                 </CashContext.Provider>
             </StepContextSet.Provider>
         </StepContext.Provider>
-    )
+    );
 };
 
-export default App_Container
+export default App_Container;
