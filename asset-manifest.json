@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/misha-react-genesis-game/static/css/main.7a212294.chunk.css",
-    "main.js": "/misha-react-genesis-game/static/js/main.028ffcb6.chunk.js",
-    "main.js.map": "/misha-react-genesis-game/static/js/main.028ffcb6.chunk.js.map",
+    "main.js": "/misha-react-genesis-game/static/js/main.6e012f9d.chunk.js",
+    "main.js.map": "/misha-react-genesis-game/static/js/main.6e012f9d.chunk.js.map",
     "runtime-main.js": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js",
     "runtime-main.js.map": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js.map",
     "static/js/2.8cc5b79d.chunk.js": "/misha-react-genesis-game/static/js/2.8cc5b79d.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.f9eb28a7.js",
     "static/js/2.8cc5b79d.chunk.js",
     "static/css/main.7a212294.chunk.css",
-    "static/js/main.028ffcb6.chunk.js"
+    "static/js/main.6e012f9d.chunk.js"
   ]
 }
