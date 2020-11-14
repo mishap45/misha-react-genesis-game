@@ -8,7 +8,7 @@ Project is created with:
 * react-router-dom: 5.2.0
 * typescript: 4.0.5
 
-## Setup
+## Get started
 Checkout this repo, install dependencies, then start the process with the following:
 
 ```
