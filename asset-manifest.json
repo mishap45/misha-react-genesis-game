@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/misha-react-genesis-game/static/css/main.84856fd7.chunk.css",
-    "main.js": "/misha-react-genesis-game/static/js/main.50be97f6.chunk.js",
-    "main.js.map": "/misha-react-genesis-game/static/js/main.50be97f6.chunk.js.map",
-    "runtime-main.js": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js",
-    "runtime-main.js.map": "/misha-react-genesis-game/static/js/runtime-main.f9eb28a7.js.map",
-    "static/js/2.5ed9e27d.chunk.js": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js",
-    "static/js/2.5ed9e27d.chunk.js.map": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js.map",
-    "static/js/3.ceaf514d.chunk.js": "/misha-react-genesis-game/static/js/3.ceaf514d.chunk.js",
-    "static/js/3.ceaf514d.chunk.js.map": "/misha-react-genesis-game/static/js/3.ceaf514d.chunk.js.map",
+    "main.css": "/misha-react-genesis-game/static/css/main.7a13b599.chunk.css",
+    "main.js": "/misha-react-genesis-game/static/js/main.714f60e5.chunk.js",
+    "main.js.map": "/misha-react-genesis-game/static/js/main.714f60e5.chunk.js.map",
+    "runtime-main.js": "/misha-react-genesis-game/static/js/runtime-main.402b75b8.js",
+    "runtime-main.js.map": "/misha-react-genesis-game/static/js/runtime-main.402b75b8.js.map",
+    "static/js/2.4b3fcf9d.chunk.js": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js",
+    "static/js/2.4b3fcf9d.chunk.js.map": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js.map",
+    "static/js/3.951bbd8a.chunk.js": "/misha-react-genesis-game/static/js/3.951bbd8a.chunk.js",
+    "static/js/3.951bbd8a.chunk.js.map": "/misha-react-genesis-game/static/js/3.951bbd8a.chunk.js.map",
     "index.html": "/misha-react-genesis-game/index.html",
-    "static/css/main.84856fd7.chunk.css.map": "/misha-react-genesis-game/static/css/main.84856fd7.chunk.css.map",
-    "static/js/2.5ed9e27d.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.5ed9e27d.chunk.js.LICENSE.txt",
-    "static/media/Close.67d0a39e.svg": "/misha-react-genesis-game/static/media/Close.67d0a39e.svg",
-    "static/media/Menu.2e4db3a9.svg": "/misha-react-genesis-game/static/media/Menu.2e4db3a9.svg",
-    "static/media/hand.dbb74bc4.svg": "/misha-react-genesis-game/static/media/hand.dbb74bc4.svg"
+    "static/css/main.7a13b599.chunk.css.map": "/misha-react-genesis-game/static/css/main.7a13b599.chunk.css.map",
+    "static/js/2.4b3fcf9d.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js.LICENSE.txt",
+    "static/media/scrug.66512f20.png": "/misha-react-genesis-game/static/media/scrug.66512f20.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9eb28a7.js",
-    "static/js/2.5ed9e27d.chunk.js",
-    "static/css/main.84856fd7.chunk.css",
-    "static/js/main.50be97f6.chunk.js"
+    "static/js/runtime-main.402b75b8.js",
+    "static/js/2.4b3fcf9d.chunk.js",
+    "static/css/main.7a13b599.chunk.css",
+    "static/js/main.714f60e5.chunk.js"
   ]
 }
