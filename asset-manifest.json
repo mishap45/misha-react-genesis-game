@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/misha-react-genesis-game/static/css/main.7a13b599.chunk.css",
-    "main.js": "/misha-react-genesis-game/static/js/main.714f60e5.chunk.js",
-    "main.js.map": "/misha-react-genesis-game/static/js/main.714f60e5.chunk.js.map",
+    "main.css": "/misha-react-genesis-game/static/css/main.95a1ed66.chunk.css",
+    "main.js": "/misha-react-genesis-game/static/js/main.1312bcbf.chunk.js",
+    "main.js.map": "/misha-react-genesis-game/static/js/main.1312bcbf.chunk.js.map",
     "runtime-main.js": "/misha-react-genesis-game/static/js/runtime-main.402b75b8.js",
     "runtime-main.js.map": "/misha-react-genesis-game/static/js/runtime-main.402b75b8.js.map",
-    "static/js/2.4b3fcf9d.chunk.js": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js",
-    "static/js/2.4b3fcf9d.chunk.js.map": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js.map",
+    "static/js/2.d7824942.chunk.js": "/misha-react-genesis-game/static/js/2.d7824942.chunk.js",
+    "static/js/2.d7824942.chunk.js.map": "/misha-react-genesis-game/static/js/2.d7824942.chunk.js.map",
     "static/js/3.951bbd8a.chunk.js": "/misha-react-genesis-game/static/js/3.951bbd8a.chunk.js",
     "static/js/3.951bbd8a.chunk.js.map": "/misha-react-genesis-game/static/js/3.951bbd8a.chunk.js.map",
     "index.html": "/misha-react-genesis-game/index.html",
-    "static/css/main.7a13b599.chunk.css.map": "/misha-react-genesis-game/static/css/main.7a13b599.chunk.css.map",
-    "static/js/2.4b3fcf9d.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.4b3fcf9d.chunk.js.LICENSE.txt",
+    "static/css/main.95a1ed66.chunk.css.map": "/misha-react-genesis-game/static/css/main.95a1ed66.chunk.css.map",
+    "static/js/2.d7824942.chunk.js.LICENSE.txt": "/misha-react-genesis-game/static/js/2.d7824942.chunk.js.LICENSE.txt",
     "static/media/scrug.66512f20.png": "/misha-react-genesis-game/static/media/scrug.66512f20.png"
   },
   "entrypoints": [
     "static/js/runtime-main.402b75b8.js",
-    "static/js/2.4b3fcf9d.chunk.js",
-    "static/css/main.7a13b599.chunk.css",
-    "static/js/main.714f60e5.chunk.js"
+    "static/js/2.d7824942.chunk.js",
+    "static/css/main.95a1ed66.chunk.css",
+    "static/js/main.1312bcbf.chunk.js"
   ]
 }
