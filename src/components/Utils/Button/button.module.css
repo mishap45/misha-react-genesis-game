@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 162px 12px 162px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color:rgba(0, 0, 0, .2);
+}

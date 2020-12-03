@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./orangeButton.module.css";
+import style from "./button.module.css";
 import { Link }  from "react-router-dom";
 
 type OrangeButtonTypes = {
@@ -7,10 +7,10 @@ type OrangeButtonTypes = {
     urlButton: string
 }
 
-const OrangeButton:React.FC<OrangeButtonTypes> = ({ textButton, urlButton }: OrangeButtonTypes) => {
+const Button:React.FC<OrangeButtonTypes> = ({ textButton, urlButton }: OrangeButtonTypes) => {
     return (
         <Link className={style.button} to={urlButton}>{ textButton }</Link >
     );
 };
 
-export default OrangeButton;
+export default Button;

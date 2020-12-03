@@ -1,120 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-.text {
-    font-family: 'Inter', sans-serif;
-    font-size: 56px;
-    font-weight: 600;
-    color: #1C1C21;
-    margin-bottom: 64px;
-    word-break: break-word;
-    padding-top: 0;
-    margin-top: 0;
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 0 80px;
+    padding: 0;
     margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #CCF3FF, #FBCCFF, #FFFACC);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15%;
+    flex: 1 0 auto
 }
 
 .textTotal {
+    text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-    color: #1C1C21;
-    opacity: .5;
-    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 68px;
+    margin-bottom: 48px;
 }
 
-.img img {
-    max-width: 600px;
-}
-
-@media screen and (max-width: 500px){
-    .App {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .img img {
-        padding-top: 80px;
-        margin-bottom: 32px;
-        width: 288px;
-    }
-
-    .text {
-        font-family: 'Inter', sans-serif;
-        font-size: 32px;
-        font-weight: 600;
-        color: #1C1C21;
-        margin-bottom: 100px;
-        word-break: break-word;
-        text-align: center;
-    }
-
-    .textTotal {
-        font-family: 'Inter', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        color: #1C1C21;
-        opacity: .5;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-
-    .btn {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px){
-    .App {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .img img {
-        padding-top: 50px;
-        margin-bottom: 24px;
-        width: 225px;
-    }
-
-    .text {
-        font-family: 'Inter', sans-serif;
-        font-size: 24px;
-        font-weight: 600;
-        color: #1C1C21;
-        margin-bottom: 50px;
-        word-break: break-word;
-        text-align: center;
-        width: 225px;
-    }
-
-    .textTotal {
-        font-family: 'Inter', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        color: #1C1C21;
-        opacity: .5;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-
-    .btn {
-        display: flex;
-        justify-content: center;
-        width: 225px;
-    }
+.footerWrapper {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
 }

@@ -1,15 +1,32 @@
 import React from "react";
-import Hand from "../../assets/img/hand.svg";
-import OrangeButton from "../OrangeButton/OrangeButton";
+import Scrug from "../../assets/img/scrug.png";
+import Button from "../Utils/Button/Button";
 import style from "./startPage.module.css";
+import Header from "../Utils/Header/Header";
+import Footer from "../Utils/Footer/Footer";
 
 const StartPage = () => {
     return (
         <div className={style.App}>
-            <div className={style.img}><img src={Hand} alt="Hand with stars"/></div>
-            <div>
-                <p className={style.text}>Who wants to be a millionaire?</p>
-                <div className={style.btn}><OrangeButton textButton={"Start"} urlButton={"/test"}/></div>
+            <Header/>
+
+            <div className={style.mainWrapper}>
+                <div className={style.main}>
+                    <div>
+                        <img className={style.img} src={Scrug} alt="Scrug"/>
+                    </div>
+
+                    <div>
+                        <p className={style.mainText}>Who wants to<br/> be a millionaire?</p>
+                        <p className={style.text}>Answer all questions correctly<br/> and become a millionaire</p>
+
+                        <Button textButton={"Start 🤑"} urlButton={"/test"}/>
+                    </div>
+                </div>
+            </div>
+
+            <div className={style.footerWrapper}>
+                <Footer/>
             </div>
         </div>
     );

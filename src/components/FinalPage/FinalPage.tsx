@@ -1,7 +1,9 @@
 import React from "react";
 import Hand from "../../assets/img/hand.svg";
-import OrangeButton from "../OrangeButton/OrangeButton";
+import Button from "../Utils/Button/Button";
 import style from "./finalPage.module.css";
+import Header from "../Utils/Header/Header";
+import Footer from "../Utils/Footer/Footer";
 
 type FinalPageTypes = {
     cashWin: number
@@ -13,13 +15,20 @@ const FinalPage:React.FC<FinalPageTypes> = ({ cashWin, cashWinSet }: FinalPageTy
 
     return (
         <div className={style.App}>
-            <div className={style.img}><img src={Hand} alt="Hand with stars"/></div>
-            <div>
-                <p className={style.textTotal}>Total score:</p>
-                <p className={style.text}>${cashWin} earned</p>
-                <div onClick={() => cashWinSet(0)} className={style.btn}>
-                    <OrangeButton textButton={"Try again"} urlButton={"/test"}/>
+            <Header/>
+
+            <div className={style.mainWrapper}>
+                <div>
+                    <p className={style.textTotal}>Your prize: <br/> ${cashWin}</p>
+
+                    <div onClick={() => cashWinSet(0)}>
+                        <Button textButton={"Replay"} urlButton={"/test"}/>
+                    </div>
                 </div>
+            </div>
+
+            <div className={style.footerWrapper}>
+                <Footer/>
             </div>
         </div>
     );

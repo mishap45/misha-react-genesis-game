@@ -11,18 +11,10 @@ const MoneyBlock:React.FC<MoneyBlockTypes> = ({ currentStep, id, cash }: MoneyBl
     return (
         <div className={
             currentStep === id
-                ? style.moneyWrapCurrent
-                : style.moneyWrap
+                ? style.moneyCurrent
+                : style.money
         }>
-            <div className={
-                currentStep === id
-                    ? style.moneyCurrent
-                    : currentStep > id
-                    ? style.moneyPassed
-                    : style.money
-            }>
-                {cash}
-            </div>
+            {cash}
         </div>
     );
 };
