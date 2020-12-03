@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import style from "./testPage.module.css";
 import MoneyBlock from "./MoneyBlock/MoneyBlock";
 import { Redirect } from "react-router-dom";
-import Burger from "../../assets/icons/Menu.svg";
-import Close from "../../assets/icons/Close.svg";
+import Header from "../Utils/Header/Header";
+import Footer from "../Utils/Footer/Footer";
 
 type answersType = {
     answer: string
@@ -40,7 +40,6 @@ const TestPage:React.FC<TestPageTypes> = ({ data, currentStep, currentStepSet, m
 
     const [answerColor, setAnswerColor] = useState("");
     const [answerLetter, setAnswerLetter] = useState("");
-    const [menu, setMenu] = useState(false);
 
     const answerFun = (an: string) => {
         if (an === "uncorrect") {
@@ -70,42 +69,39 @@ const TestPage:React.FC<TestPageTypes> = ({ data, currentStep, currentStepSet, m
 
     return (
         <div className={style.testBlock}>
+            <Header/>
 
-            {document.body.offsetWidth <= 500 && <img className={style.menu}
-                                                      onClick={() => menu ? setMenu(false) : setMenu(true)}
-                                                      src={menu ? Close : Burger} alt="menu" />}
+            <div className={style.main}>
+                <div className={style.moneyWrapper}>
+                    {money.map( m => {
+                        return <MoneyBlock key={m.id} id={m.id} cash={m.cash} currentStep={currentStep} />;
+                    })}
+                </div>
 
-            <div style={document.body.offsetWidth <= 500 && menu ? {display: "none"} : {display: "block"}}>
-                <p className={style.question}>{data[currentStep].question}</p>
+                <div>
+                    <p className={style.question}>{data[currentStep].question}</p>
 
-                <div className={style.answerBlock}>
-                    {data[currentStep].answers.map( a =>
-                        <div className={style.auto} key={a.letter} >
-                            <div className={answerLetter === a.letter ? answerColor === "correct"
-                            ? style.answerWrapCorrect
-                            : answerColor === "uncorrect"
-                                ? style.answerWrapUnCorrect
-                                : style.answerWrap
-                            : style.answerWrap}>
-                            <div key={a.letter} className={answerLetter === a.letter ? answerColor === "correct"
-                                ? style.answerCorrect
-                                : answerColor === "uncorrect"
-                                    ? style.answerUnCorrect
-                                    : style.answer
-                                : style.answer} onClick={() => {setAnswerLetter(a.letter); checkAnswer(a.answer);}}>
-                                <p style={{ color: "#FF8B37", paddingRight: 8, cursor: "pointer" }}>
-                                    {a.letter}</p>{a.answer}
-                            </div>
-                        </div></div>)}
+                    <div className={style.answerBlock}>
+                        {data[currentStep].answers.map(a =>
+                            <div key={a.letter}>
+                                <div className={answerLetter === a.letter ? answerColor === "correct"
+                                    ? style.answerCorrect
+                                    : answerColor === "uncorrect"
+                                        ? style.answerUnCorrect
+                                        : style.answer
+                                    : style.answer} onClick={() => {
+                                    setAnswerLetter(a.letter);
+                                    checkAnswer(a.answer);
+                                }}>
+                                    {a.answer}
+                                </div>
+                            </div>)}
+                    </div>
                 </div>
             </div>
 
-            <div className={document.body.offsetWidth <= 500 ? menu ? style.moneyBlock : style.none : style.moneyBlock}>
-                <div>
-                    {money.map( m => {
-                        return <MoneyBlock key={m.id} id={m.id} cash={m.cash} currentStep={currentStep} />;
-                    }).reverse()}
-                </div>
+            <div className={style.footerWrapper}>
+                <Footer/>
             </div>
         </div>
     );
