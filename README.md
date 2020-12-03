@@ -16,7 +16,7 @@ Checkout this repo, install dependencies, then start the process with the follow
 
 ```
 $  git clone https://github.com/mishap45/misha-react-codempire.git
-$  cd CalculatorReactNative
+$  cd misha-react-genesis-game
 $  npm install
 $  npm start
 ```
